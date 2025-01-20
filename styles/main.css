@@ -1,0 +1,11 @@
+.links {
+    margin: auto; 
+    display: flex;  
+    justify-content: center; /* for horizontal */
+    align-items: center; /* for vertical */
+}
+
+html {
+    background-color: black;
+    color: #fff;
+}
