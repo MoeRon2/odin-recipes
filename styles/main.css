@@ -1,3 +1,24 @@
+* {
+    background-color: black;
+    color: #fff;
+    /* font-family: 'Brush Script MT', sans-serif; */
+    font-family: "Dancing Script", serif;
+    font-weight: 600;
+    font-size: 24px;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+/* Taken from fonts.google.com */ 
+/* .dancing-script-<uniquifier> {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
 .links {
     margin: auto; 
     display: flex;  
@@ -5,7 +26,19 @@
     align-items: center; /* for vertical */
 }
 
-html {
-    background-color: black;
-    color: #fff;
+a:link{
+    color: red;
+}
+
+a:visited {
+    color: peru;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+h1 {
+    color: lightgreen;
+    font-weight: bold;
 }
